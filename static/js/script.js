@@ -1,0 +1,10 @@
+const body = document.querySelector('.body')
+const main_section = document.querySelector('.main-section')
+const menu = document.querySelector('.menu')
+const menu_burger = document.querySelector('.menu-burger')
+menu_burger.addEventListener('click', () => {
+    body.classList.toggle('active')
+    main_section.classList.toggle('active')
+    menu.classList.toggle('active')
+    menu_burger.classList.toggle('active')
+})
